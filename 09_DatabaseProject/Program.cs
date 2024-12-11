@@ -34,7 +34,7 @@ namespace _09_DatabaseProject
             tableNumber = Console.ReadLine();
 
 
-            SqlConnection connection = new SqlConnection("Data Source=SAKULTA;initial Catalog=EgitimKampıDb;integrated security=true");
+            SqlConnection connection = new SqlConnection("Data Source=SAKULTA;inital Catalog=EgitimKampıDb;integrated security=true");
               
             connection.Open();
             SqlCommand command = new SqlCommand("Select * From tblCategory", connection);
