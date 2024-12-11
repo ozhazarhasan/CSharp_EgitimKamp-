@@ -165,30 +165,30 @@ namespace _06_Arrays
             //Console.WriteLine("Toplam: " + sum);
 
 
-            int[] numbers = { 15, 56, 23, 89, 47, 25, 14, 58, 95, 44, 20 };
+            //int[] numbers = { 15, 56, 23, 89, 47, 25, 14, 58, 95, 44, 20 };
 
-            Console.WriteLine("***** Çift Sayılar *****");
+            //Console.WriteLine("***** Çift Sayılar *****");
 
-            for(int i = 0; i < numbers.Length; i++)
-            {
-                if (numbers[i] % 2 == 0)
-                {
-                    Console.WriteLine(numbers[i]);
-                }
-            }
+            //for(int i = 0; i < numbers.Length; i++)
+            //{
+            //    if (numbers[i] % 2 == 0)
+            //    {
+            //        Console.WriteLine(numbers[i]);
+            //    }
+            //}
 
-            Console.WriteLine();
-            Console.WriteLine("***********************");
-            Console.WriteLine();
-            Console.WriteLine("***** Tek Sayılar *****");
+            //Console.WriteLine();
+            //Console.WriteLine("***********************");
+            //Console.WriteLine();
+            //Console.WriteLine("***** Tek Sayılar *****");
 
-            for(int i = 0; i < numbers.Length; i++)
-            {
-                if (numbers[i] % 2 == 1)
-                {
-                    Console.WriteLine(numbers[i]);
-                }
-            }
+            //for(int i = 0; i < numbers.Length; i++)
+            //{
+            //    if (numbers[i] % 2 == 1)
+            //    {
+            //        Console.WriteLine(numbers[i]);
+            //    }
+            //}
 
 
 
